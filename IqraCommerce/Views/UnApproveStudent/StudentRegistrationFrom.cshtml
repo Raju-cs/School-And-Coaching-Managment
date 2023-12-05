@@ -1,0 +1,208 @@
+﻿@{
+         ViewData["Title"] = "StudentRegistrationFrom";
+         Layout = "";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <link href="~/lib/bootstrap/css/bootstrap.css" rel="stylesheet" />
+    <link href="~/lib/font-awesome/font-awesome.css" rel="stylesheet" />
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/Content/Theme/Css/font-awesome.css" rel="stylesheet" />
+    <link href="~/Content/Theme/Css/ionicons.min.css" rel="stylesheet" />
+    <link href="~/Content/Theme/Css/_all-skins.min.css" rel="stylesheet" />
+    <link href="~/Content/Style.css" rel="stylesheet" />
+     <link rel="stylesheet" href="~/css/register.css" />
+    <script src="~/Content/IqraService/Js/IqraConfig.js?v=1.30"></script>
+    <script src="~/Content/IqraService/Js/Global.js?v=1.19"></script>
+    <script src="~/Content/Scripts/AppComponent.js"></script>
+    <link rel="stylesheet" href="~/css/site.css" />
+    <script defer type="module" src="~/js/student-area/studentregistrationfrom.js"></script>
+    <title>Registration</title>
+
+</head>
+<body>
+    
+<div id="student_registration_form" class="form" style="top: 10px; left: calc(50% - 448.889px);">
+   <div class="formContainer">
+      <div class="formBody">
+         <div class="row formHeader headerFormMenu">
+            <div style="text-align: center;" class="widget-title">
+               <h3 style="margin:5px;" class="auto_bind" data-binding="Title">Dreamer's Student Registration Form</h3>
+            </div>
+            <span class="pull-right button_container">
+            @*---<a class="button btn_cancel"><span class="glyphicon glyphicon-remove"></span></a></span>*@
+         </div>
+
+
+         <div class="middleForm" action="/" style=" padding: 0px 20px;" >
+            <div class="row">
+               <section class="col-sm-12 col col-md-3">
+                  <div><label for="NickName">Nick Name</label></div>
+                  <div class="input-group" style=" width: 100%;"><input data-type="string" type="text" required="" data-binding="NickName" name="NickName" class="form-control"> </div>
+               </section>
+               <section class="col-sm-12 col col-md-3">
+                  <div><label for="Name">Full Name(English)</label></div>
+                  <div class="input-group"style=" width: 100%;"><input data-type="string" type="text" required="" data-binding="Name" name="Name" class="form-control"> </div>
+               </section>
+               <section class="col-sm-12 col col-md-3">
+                  <div><label for="StudentNameBangla">Full Name(Bangla)</label></div>
+                  <div class="input-group"style=" width: 100%;"><input data-type="string" type="text" required="" data-binding="StudentNameBangla" name="StudentNameBangla" class="form-control"> </div>
+               </section>
+               <section class="col-sm-12 col col-md-3">
+                  <div><label for="PhoneNumber">Phone Number</label></div>
+                  <div class="input-group"style=" width: 100%;"><input data-type="string" type="text" required="" data-binding="PhoneNumber" name="PhoneNumber" class="form-control"> </div>
+               </section>
+            </div>
+            <div class="row">
+               <section class="col-sm-12 col col-md-3">
+                  <div><label for="dob">Date Of Birth</label></div>
+                  <div class="input-group"style=" width: 100%;"><input data-type="string" type="text" data-dateformat="MM/dd/yyyy" required="" data-binding="dob" name="dob" class="form-control"> </div>
+               </section>
+               <section class="col-sm-12 col col-md-3">
+                  <div><label for="Gender">Gender</label></div>
+                  <div class="input-group"style=" width: 100%;"><input data-type="string" type="text" data-binding="Gender" name="Gender" class="form-control" style="display: none;"></div>
+               </section>
+               <section class="col-sm-12 col col-md-3">
+                  <div><label for="BloodGroup">Blood Group</label></div>
+                  <div class="input-group"style=" width: 100%;"><input data-type="string" type="text" data-binding="BloodGroup" name="BloodGroup" class="form-control" style="display: none;"></div>
+               </section>
+               <section class="col-sm-12 col col-md-3">
+                  <div><label for="Religion">Religion</label></div>
+                  <div class="input-group"style=" width: 100%;"><input data-type="string" type="text" data-binding="Religion" name="Religion" class="form-control" style="display: none;"> </div>
+               </section>
+            </div>
+            <div class="row">
+                <section class="col-sm-12 col col-md-3">
+                    <div><label for="ChooseSubject">Subjects You Want To Enrol</label></div>
+                    <div class="input-group"style=" width: 100%;"><input data-type="string" type="text" required="" data-binding="ChooseSubject" name="ChooseSubject" class="form-control"> </div>
+                </section>
+               <section class="col-sm-12 col col-md-3">
+                  <div><label for="Nationality">Nationality</label></div>
+                  <div class="input-group"style=" width: 100%;"><input data-type="string" type="text" required="" data-binding="Nationality" name="Nationality" class="form-control"> </div>
+               </section>
+               <section class="col-sm-10 col col-md-2">
+                  <div><label for="StudentSchoolName">School Name</label></div>
+                  <div class="input-group"style=" width: 100%;"><input data-type="string" type="text" data-binding="StudentSchoolName" name="StudentSchoolName" class="form-control"> </div>
+               </section>
+               <section class="col-sm-10 col col-md-2">
+                  <div><label for="StudentCollegeName">College Name</label></div>
+                  <div class="input-group"style=" width: 100%;"><input data-type="string" type="text" data-binding="StudentCollegeName" name="StudentCollegeName" class="form-control"> </div>
+               </section>
+               <section class="col-sm-10 col col-md-2">
+                  <div><label for="Class">Class</label></div>
+                  <div class="input-group"style=" width: 100%;"><input data-type="string" type="text" required="" data-binding="Class" name="Class" class="form-control"> </div>
+               </section>
+            </div>
+            <div class="row">
+               <section class="col-sm-12 col col-md-3">
+                  <div><label for="Shift">Shift</label></div>
+                  <div class="input-group"style=" width: 100%;"><input data-type="string" type="text" data-binding="Shift" name="Shift" class="form-control" style="display: none;"> </div>
+               </section>
+               <section class="col-sm-12 col col-md-3">
+                  <div><label for="Group">Group</label></div>
+                  <div class="input-group"style=" width: 100%;"><input data-type="string" type="text" data-binding="Group" name="Group" class="form-control" style="display: none;"> </div>
+               </section>
+               <section class="col-sm-12 col col-md-3">
+                  <div><label for="Version">Version</label></div>
+                  <div class="input-group"style=" width: 100%;"><input data-type="string" type="text" data-binding="Version" name="Version" class="form-control" style="display: none;"> </div>
+               </section>
+               <section class="col-sm-12 col col-md-3">
+                  <div><label for="Section">Section</label></div>
+                  <div class="input-group"style=" width: 100%;"><input data-type="string" type="text" data-binding="Section" name="Section" class="form-control"> </div>
+               </section>
+            </div>
+            <div class="row">
+               <section class="col-sm-12 col col-md-3">
+                  <div><label for="FathersName">Father's Name</label></div>
+                  <div class="input-group"style=" width: 100%;"><input data-type="string" type="text" data-binding="FathersName" name="FathersName" class="form-control"> </div>
+               </section>
+               <section class="col-sm-12 col col-md-3">
+                  <div><label for="FathersOccupation">Father's Occupation</label></div>
+                  <div class="input-group"style=" width: 100%;"><input data-type="string" type="text" data-binding="FathersOccupation" name="FathersOccupation" class="form-control"> </div>
+               </section>
+               <section class="col-sm-12 col col-md-3">
+                  <div><label for="FathersPhoneNumber">Father's Phone Number</label></div>
+                  <div class="input-group"style=" width: 100%;"><input data-type="string" type="text" data-binding="FathersPhoneNumber" name="FathersPhoneNumber" class="form-control"> </div>
+               </section>
+               <section class="col-sm-12 col col-md-3">
+                  <div><label for="FathersEmail">Father's Email Address</label></div>
+                  <div class="input-group"style=" width: 100%;"><input data-type="string" type="text" data-binding="FathersEmail" name="FathersEmail" class="form-control"> </div>
+               </section>
+            </div>
+            <div class="row">
+               <section class="col-sm-12 col col-md-3">
+                  <div><label for="MothersName">Mother's Name</label></div>
+                  <div class="input-group"style=" width: 100%;"><input data-type="string" type="text" data-binding="MothersName" name="MothersName" class="form-control"> </div>
+               </section>
+               <section class="col-sm-12 col col-md-3">
+                  <div><label for="MothersOccupation">Mother's Occupation</label></div>
+                  <div class="input-group"style=" width: 100%;"><input data-type="string" type="text" data-binding="MothersOccupation" name="MothersOccupation" class="form-control"> </div>
+               </section>
+               <section class="col-sm-12 col col-md-3">
+                  <div><label for="MothersPhoneNumber">Mother's Phone Number</label></div>
+                  <div class="input-group"style=" width: 100%;"><input data-type="string" type="text" data-binding="MothersPhoneNumber" name="MothersPhoneNumber" class="form-control"> </div>
+               </section>
+               <section class="col-sm-12 col col-md-3">
+                  <div><label for="MothersEmail">Mother's Email Address</label></div>
+                  <div class="input-group"style=" width: 100%;"><input data-type="string" type="text" data-binding="MothersEmail" name="MothersEmail" class="form-control"> </div>
+               </section>
+            </div>
+            <div class="row">
+               <section class="col-sm-12 col col-md-3">
+                  <div><label for="GuardiansName">Guardian's Name</label></div>
+                  <div class="input-group"style=" width: 100%;"><input data-type="string" type="text" required="" data-binding="GuardiansName" name="GuardiansName" class="form-control"> </div>
+               </section>
+               <section class="col-sm-12 col col-md-3">
+                  <div><label for="GuardiansOccupation">Guardian's Occupation</label></div>
+                  <div class="input-group"style=" width: 100%;"><input data-type="string" type="text" required="" data-binding="GuardiansOccupation" name="GuardiansOccupation" class="form-control"> </div>
+               </section>
+               <section class="col-sm-12 col col-md-3">
+                  <div><label for="GuardiansPhoneNumber">Guardian's Phone Number</label></div>
+                  <div class="input-group"style=" width: 100%;"><input data-type="string" type="text" required="" data-binding="GuardiansPhoneNumber" name="GuardiansPhoneNumber" class="form-control"> </div>
+               </section>
+               <section class="col-sm-12 col col-md-3">
+                  <div><label for="GuardiansEmail">Guardian's Email Address</label></div>
+                  <div class="input-group"style=" width: 100%;"><input data-type="string" type="text" required="" data-binding="GuardiansEmail" name="GuardiansEmail" class="form-control"> </div>
+               </section>
+            </div>
+            <div class="row">
+               <section class="col-sm-12 col col-md-3">
+                  <div><label for="PresentAddress">Present Address</label></div>
+                  <div class="input-group"style=" width: 100%;"><input data-type="string" type="text" required="" data-binding="PresentAddress" name="PresentAddress" class="form-control"> </div>
+               </section>
+               <section class="col-sm-12 col col-md-3">
+                  <div><label for="PermanantAddress">Permanant Address</label></div>
+                  <div class="input-group"style=" width: 100%;"><input data-type="string" type="text" required="" data-binding="PermanantAddress" name="PermanantAddress" class="form-control"> </div>
+               </section>
+               <section class="col-sm-12 col col-md-3">
+                  <div><label for="DistrictId">District</label></div>
+                  <div class="input-group"style=" width: 100%;"><input data-type="string" type="text" required="" data-binding="DistrictId" name="DistrictId" class="form-control"> </div>
+               </section>
+
+               <section class="col-sm-12 col col-md-3">
+               <div><label for="ChooseId">Add Image</label></div>
+               <div class="input-group"style=" width: 100%;"><input  data-type="string" type="file" required="" data-binding="ImageURL" name="ImageURL" class="form-control" > </div>
+               </section>
+            </div>
+           
+            <div class="row">
+               <div class="text-center formFooter FooterFormMenu"style="padding-top: 26px;"> 
+                   <button class="btn btn_save btn-white btn-default btn-round" type="button"style=" color: #f0eaea; background-color: #7c5050; border-color: #ccc;padding: 14px 44px;font-size: 16px;"><span class="glyphicon glyphicon-save"></span> Submit </button> 
+                </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
+</body>
+</html>
+
+
+
+
+

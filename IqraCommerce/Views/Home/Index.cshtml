@@ -1,0 +1,100 @@
+﻿@{
+    ViewData["Title"] = "Dashboard";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<link rel="stylesheet" href = "~/css/dashboard.css" >
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+@*<div id="crsh_container">
+    <div class="row filter_container" style="
+    position: relative;
+    left: 262px;
+"></div>
+</div>*@
+<div class="dashboard">
+        <a href="https://localhost:44347/Student">
+        <div class="info-card info-button">
+            <div class="students-icon-container">
+                <i class="fas fa-user-graduate fa-2x rounded-icon"></i>
+            </div>
+            <div>
+             <h2>Students</h2>
+            <p class = "js-students-count"></p>
+            </div>
+        </div>
+        </a>
+        <a href="https://localhost:44347/Teacher">
+        <div class="info-card info-button">
+            <div class="teachers-icon-container">
+               <i class="fa-solid fa-user-group"></i>
+            </div>
+            <div>
+            <h2>Teachers</h2>
+            <p class ="js-Teachers-count"></p>
+            </div>
+            
+        </div>
+        </a>
+        <a href="https://localhost:44347/Module">
+        <div class="info-card info-button">
+            <div class = "modules-icon-container"><i class="fa-solid fa-clipboard"></i></div>
+            <div>
+                 <h2>Modules</h2>
+            <p class = "js-module-count"></p>
+            </div>
+           
+        </div>
+        </a>
+        <a href="https://localhost:44347/Course">
+        <div class="info-card info-button">
+            <div class = "course-icon-container"> <i class="fa-brands fa-discourse"></i> </div>
+            <div>
+            <h2>Courses</h2>
+            <p class = "js-courses-count"></p>
+            </div>
+           
+        </div>
+        </a>
+        <a href="https://localhost:44347/CoachingAccount">
+        <div class="info-card info-button">
+             <div class = "earning-icon-container"><i class="fa-solid fa-dollar-sign"></i> </div>
+             <div>
+              <h2>Expense</h2>
+            <p class="js-expense-count">0</p>
+        </div>
+        </div>
+        </a>
+    </div>
+
+<div class="student-details">
+<div class="custom-container">
+     <div class="income-icon">
+         <span class="glyphicon glyphicon-compressed" aria-hidden="true"></span>
+           <h2>Income</h2>
+         </div>
+     <div class="income-details js-income-total">
+     </div>
+</div>
+
+  <div class="custom-container">
+    <div class="user-details">
+        <span class="glyphicon glyphicon-log-in" aria-hidden="true"></span>
+           <h2>User Activity</h2>
+       </div>
+  <div class="user_activity_right">
+                <div class="hover-ef-1"></div>
+                    <div class="user_activity_list js-user-lastActivity">
+                        
+                    </div>
+                <div class="hover-ef-2"></div>
+   </div>
+  </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script defer type="module" src="~/js/dashboard-area/DashBoard.js"></script>
+ <div class="chart-bar">
+   <canvas id="admissionsChart"></canvas>
+  </div>
+

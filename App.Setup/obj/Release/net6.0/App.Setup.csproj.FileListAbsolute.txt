@@ -1,0 +1,43 @@
+F:\Running\2023\IqraService\.NET 6.0\Web API\IqraService6.0\App.Setup\bin\Release\net6.0\App.Setup.deps.json
+F:\Running\2023\IqraService\.NET 6.0\Web API\IqraService6.0\App.Setup\bin\Release\net6.0\App.Setup.dll
+F:\Running\2023\IqraService\.NET 6.0\Web API\IqraService6.0\App.Setup\bin\Release\net6.0\App.Setup.pdb
+F:\Running\2023\IqraService\.NET 6.0\Web API\IqraService6.0\App.Setup\bin\Release\net6.0\IqraBase.Setup.dll
+F:\Running\2023\IqraService\.NET 6.0\Web API\IqraService6.0\App.Setup\bin\Release\net6.0\IqraBase.Setup.pdb
+F:\Running\2023\IqraService\.NET 6.0\Web API\IqraService6.0\App.Setup\obj\Release\net6.0\App.Setup.csproj.AssemblyReference.cache
+F:\Running\2023\IqraService\.NET 6.0\Web API\IqraService6.0\App.Setup\obj\Release\net6.0\App.Setup.GeneratedMSBuildEditorConfig.editorconfig
+F:\Running\2023\IqraService\.NET 6.0\Web API\IqraService6.0\App.Setup\obj\Release\net6.0\App.Setup.AssemblyInfoInputs.cache
+F:\Running\2023\IqraService\.NET 6.0\Web API\IqraService6.0\App.Setup\obj\Release\net6.0\App.Setup.AssemblyInfo.cs
+F:\Running\2023\IqraService\.NET 6.0\Web API\IqraService6.0\App.Setup\obj\Release\net6.0\App.Setup.csproj.CoreCompileInputs.cache
+F:\Running\2023\IqraService\.NET 6.0\Web API\IqraService6.0\App.Setup\obj\Release\net6.0\App.Setup.csproj.CopyComplete
+F:\Running\2023\IqraService\.NET 6.0\Web API\IqraService6.0\App.Setup\obj\Release\net6.0\App.Setup.dll
+F:\Running\2023\IqraService\.NET 6.0\Web API\IqraService6.0\App.Setup\obj\Release\net6.0\refint\App.Setup.dll
+F:\Running\2023\IqraService\.NET 6.0\Web API\IqraService6.0\App.Setup\obj\Release\net6.0\App.Setup.pdb
+F:\Running\2023\IqraService\.NET 6.0\Web API\IqraService6.0\App.Setup\obj\Release\net6.0\ref\App.Setup.dll
+E:\Dreamers_Update\App.Setup\bin\Release\net6.0\App.Setup.deps.json
+E:\Dreamers_Update\App.Setup\bin\Release\net6.0\App.Setup.dll
+E:\Dreamers_Update\App.Setup\bin\Release\net6.0\App.Setup.pdb
+E:\Dreamers_Update\App.Setup\bin\Release\net6.0\IqraBase.Setup.dll
+E:\Dreamers_Update\App.Setup\obj\Release\net6.0\App.Setup.csproj.AssemblyReference.cache
+E:\Dreamers_Update\App.Setup\obj\Release\net6.0\App.Setup.GeneratedMSBuildEditorConfig.editorconfig
+E:\Dreamers_Update\App.Setup\obj\Release\net6.0\App.Setup.AssemblyInfoInputs.cache
+E:\Dreamers_Update\App.Setup\obj\Release\net6.0\App.Setup.AssemblyInfo.cs
+E:\Dreamers_Update\App.Setup\obj\Release\net6.0\App.Setup.csproj.CoreCompileInputs.cache
+E:\Dreamers_Update\App.Setup\obj\Release\net6.0\App.Setup.csproj.CopyComplete
+E:\Dreamers_Update\App.Setup\obj\Release\net6.0\App.Setup.dll
+E:\Dreamers_Update\App.Setup\obj\Release\net6.0\refint\App.Setup.dll
+E:\Dreamers_Update\App.Setup\obj\Release\net6.0\App.Setup.pdb
+E:\Dreamers_Update\App.Setup\obj\Release\net6.0\ref\App.Setup.dll
+H:\Running\2023\Dreamers_Update\App.Setup\bin\Release\net6.0\App.Setup.deps.json
+H:\Running\2023\Dreamers_Update\App.Setup\bin\Release\net6.0\App.Setup.dll
+H:\Running\2023\Dreamers_Update\App.Setup\bin\Release\net6.0\App.Setup.pdb
+H:\Running\2023\Dreamers_Update\App.Setup\bin\Release\net6.0\IqraBase.Setup.dll
+H:\Running\2023\Dreamers_Update\App.Setup\obj\Release\net6.0\App.Setup.csproj.AssemblyReference.cache
+H:\Running\2023\Dreamers_Update\App.Setup\obj\Release\net6.0\App.Setup.GeneratedMSBuildEditorConfig.editorconfig
+H:\Running\2023\Dreamers_Update\App.Setup\obj\Release\net6.0\App.Setup.AssemblyInfoInputs.cache
+H:\Running\2023\Dreamers_Update\App.Setup\obj\Release\net6.0\App.Setup.AssemblyInfo.cs
+H:\Running\2023\Dreamers_Update\App.Setup\obj\Release\net6.0\App.Setup.csproj.CoreCompileInputs.cache
+H:\Running\2023\Dreamers_Update\App.Setup\obj\Release\net6.0\App.Setup.csproj.CopyComplete
+H:\Running\2023\Dreamers_Update\App.Setup\obj\Release\net6.0\App.Setup.dll
+H:\Running\2023\Dreamers_Update\App.Setup\obj\Release\net6.0\refint\App.Setup.dll
+H:\Running\2023\Dreamers_Update\App.Setup\obj\Release\net6.0\App.Setup.pdb
+H:\Running\2023\Dreamers_Update\App.Setup\obj\Release\net6.0\ref\App.Setup.dll
